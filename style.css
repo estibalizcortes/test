@@ -3,6 +3,14 @@ body {
     background-color: rgb(89, 218, 166);
 }
 
+/* Estilos para el encabezado del ppio*/
+header {
+    background-color: rgb(24, 86, 44);
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
 /*Estilos para la barra de navegación */
 nav {
     background-color: rgb(53, 199, 85);
@@ -11,6 +19,7 @@ nav {
     text-align: center;
     list-style: none;   
 }
+
 /*Estilos para el main*/
 main {
     margin: auto;
@@ -45,7 +54,10 @@ p {
     font-size: 15px;
     color: black;
     text-align: justify;
-    padding: 10px;
+    padding-left: 30px;
+    padding-right: 60px;
+    padding-top: 20px;
+    padding-bottom: 40px;
 }
 
 /*Estilo para la imagen que sea responsive*/
@@ -59,3 +71,25 @@ a {
     text-decoration: none;
 }
 
+.seccionIncio{ /*Estilo para mi informacion en el inicio.html*/
+    background-color: rgb(74, 140, 149);
+    color: white;
+    padding: 10px 1px;
+    text-align: center;
+    list-style: none; 
+}
+
+.articleInformacion{ /*Mi información */
+    background-color: rgb(87, 235, 225);
+    color: white;
+    margin-left: 5px;
+    margin-right: 5px;
+    text-align: center;
+    list-style: none; 
+}
+
+/* Estilos para las listas */
+ul {
+    list-style-type: disc; /* Marcador de viñetas */
+    margin: 0 auto;
+} 
