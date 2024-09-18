@@ -1,0 +1,61 @@
+/* Estilos para el fondo genereal de la página */
+body {
+    background-color: rgb(89, 218, 166);
+}
+
+/*Estilos para la barra de navegación */
+nav {
+    background-color: rgb(53, 199, 85);
+    color: white;
+    padding: 10px 0px;
+    text-align: center;
+    list-style: none;   
+}
+/*Estilos para el main*/
+main {
+    margin: auto;
+    text-align: center;
+    outline: 0.5px;
+    width: 100%;
+}
+
+/* Estilos para textos de "encabezado" */
+h1 {
+    font-family: 'Reboto', sans-serif;
+    font-weight: bold;
+    font-size: 38px;
+    text-align: center;
+}
+h2 {
+    font-family: 'Reboto', sans-serif;
+    font-weight: bold;
+    font-size: 22px;
+    text-align: center;   
+}
+h3 {
+    font-family: 'Reboto', sans-serif;
+    font-weight: bold;
+    font-size: 17px;
+    text-align: center;   
+}
+
+/* Estilos para los párrafos */
+p {
+    font-family: 'Reboto', sans-serif;
+    font-size: 15px;
+    color: black;
+    text-align: justify;
+    padding: 10px;
+}
+
+/*Estilo para la imagen que sea responsive*/
+img {
+    max-width: 100%;
+}
+
+/* Estilos para enlaces */
+a {
+    color: black; 
+    text-decoration: none;
+}
+
